@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Inclusion du JS dans l'HTML</title>
+</head>
+<body>
+    <!--CONTENU EN HTML-->
+    <div>
+        <h1>Cours JavaScript</h1>
+
+        <!--3ème manière d'inclure-->
+        <input type="button" value="cliquez ici" onclick="alert('Salut !');">
+    </div>
+    <!--FIN CONTENU EN HTML-->
+
+    <!--1ère manière d'inclure-->
+    <script>
+        // Double slash le commentaire sur une ligne
+
+        /*
+            Slash + étoile commentaire sur plusieurs lignes
+        */
+
+
+
+
+
+
+
+        //-----------------------------
+        //Pour afficher du contenu directement dans ma page
+
+        document.write("<p><strong>Le JS, c'est cool</strong></p>");// document.write() me permet d'afficher du contenu HTML dans ma page
+
+        //-----------------------------
+
+        //Boîtes de dialogue
+
+        // alert('Salut tout le monde'); // Permet d'afficher un message dans une pop-up
+
+        // confirm("Voulez-vous vraiment quitter la page?"); // Permet d'interagir avec le visiteur de la page en récupérant une valeur "booléenne"
+
+        // prompt("Ecrivez votre prénom"); // Permet d'interagir avec le visiteur de la page en récupérant une valeur textuelle
+        
+        // Console
+        console.log("Message à afficher dans la console"); // Permet d'afficher des messages dans la console de boggage du navigateur
+    </script> 
+
+    <!--2ème manière d'inclure (la manière la plus recommandée dans le développement web moderne-->
+    <!--<script src="script.js"></script>--> 
+
+</body>
+</html>
