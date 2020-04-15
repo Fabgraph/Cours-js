@@ -245,7 +245,7 @@ document.write('Type de la variable "decimal" : ' + typeof decimal + '<br>'); //
 
 document.write('Type de la variable "a" : ' + typeof a + '<br>'); // Type de la variable "a" : string
 
-document.write('Type de la variable "b" : ' + typeof pb + '<br>'); // Type de la variable "b" : undefined
+document.write('Type de la variable "b" : ' + typeof b + '<br>'); // Type de la variable "b" : number
 
 document.write('Type de la variable "choix" : ' + typeof choix + '<br>'); // Type de la variable "choix" : boolean
 
@@ -258,3 +258,34 @@ document.write('Type de la variable "person" : ' + typeof person + '<br>'); // T
 document.write('Type de la variable "foo" : ' + typeof foo + '<br>'); // Type de la variable "foo" : object
 
 document.write('Type de la variable "maLet" : ' + typeof maLet + '<br>'); // Type de la variable "maLet" : undefined
+
+//------------------------
+document.write("<h3>Conversion de types</h3>");
+
+// Convertir une chaine de caractères en nombre grâce à la fonction native JS : parseInt()
+
+let texte = "12345";
+let numero;
+
+document.write('Type de la variable "texte : ' + typeof texte + '<br>'); // Type de la variable "texte" : string
+
+numero = parseInt(texte);
+
+document.write('Après la conversion, le typede la variable "numero" est maintenant : ' + typeof numero + '<br>'); // Après la conversion, le type de ma variable "numero" est maintenant : number
+
+//-----------------------
+
+// Convertir un nombre en chaine de caractères
+
+let texte2,
+    numero2 = 2,
+    numero3 = 9;
+
+texte2 = numero2 + "" + numero3;
+
+document.write("Après la conversion des variables \"numero2\" et \"numero3\", le type de la variable \"texte2\" est : " + typeof texte2 + "<br>"); // Après la conversion des vaiables "numero2" et "numero3", le type de la variable est : string
+
+
+
+
+
