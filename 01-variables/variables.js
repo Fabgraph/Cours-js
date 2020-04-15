@@ -91,7 +91,7 @@ function varTest(){
     // Condition
     //---BLOC 2
     if(true){
-        var x = 2; // C'est la même variable qui se trouve à l'extérieur de la condition (cf. 98)
+        var x = 2; // C'est la même variable qui se trouve à l'extérieur de la condition (cf. 99)
         console.log(x); // Affiche : 2
     }
     //---FIN DU BLOC 2
@@ -221,6 +221,7 @@ let foo = null; // null équivaut à "rien"
 
 //------------------------------
 document.write("<h5>Undefined</h5>");
+
     // UNDEFINED
 let maLet; // Simple déclaration de variable 
 
