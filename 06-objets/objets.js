@@ -50,11 +50,36 @@ let maVoiture = {// Je crée et remplis mon objet maVoiture
 
 document.write(maVoiture.marque + '<br>');
 
-document.write('La couleur initiale : ' + maVoiture.couleur + '<br>');
+document.write('La couleur initiale : ' + maVoiture.couleur + '<br>'); // La couleur initiale : noir
 
 maVoiture.changeDeCouleur('gris');
 
-document.write('La nouvelle couleur : ' + maVoiture.couleur + '<br>');
+document.write('La nouvelle couleur : ' + maVoiture.couleur + '<br>'); // La nouvelle couleur : gris
+
+document.write('Le type d\'énergie de la voiture : ' + maVoiture.motorisation.energie + '<br>'); // Le type d'énergie de la voiture : diesel
+
+//------------------------
+
+document.write('<h3>La boucle for...in</h3>');
+
+// La boucle for...in est une boucle qui permet de parcourir les objets et de récupérer tous les éléments (informations) qui y sont contenus
+
+for(let monElement in maVoiture){ // syntaxe pour récupérer les éléments (propriétés et méthodes) de l'objet
+    document.write(monElement + '<br>');
+}
+
+document.write('<hr>');
+
+for(let monElement in maVoiture){ // syntaxe pour récupérer les éléments (propriétés et méthodes) de l'objet
+    document.write(maVoiture[monElement] + '<br>');
+}
+
+
+
+
+
+
+
 
 
 
