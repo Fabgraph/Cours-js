@@ -20,5 +20,19 @@ function modifCss(){
 
 document.getElementsByTagName('div')[0].onclick = modifCss; // On utilise la propriété onclick pour un évènement au clic
 
+//console.log(document);
 
+//----------------------
+
+// getComputedStyle()
+
+let section = document.getElementById('maSection');
+
+let fontSz = getComputedStyle(section).fontSize; // La méthode getComputedStyle() récupère la valeur de n'importe quelle propriété CSS. C'est utile, car la propriété style n'accède pas aux propriété définies dans la feuille de style
+
+// La propriété style accède aux prorpiété CSS renseignées dans un attribut "style" d'une balise
+
+console.log(fontSz); // 20px
+
+console.log(section.style.marginTop); // 50px
 
