@@ -267,11 +267,11 @@ document.write("<h3>Conversion de types</h3>");
 let texte = "12345";
 let numero;
 
-document.write('Type de la variable "texte : ' + typeof texte + '<br>'); // Type de la variable "texte" : string
+document.write('Type de la variable "texte" : ' + typeof texte + '<br>'); // Type de la variable "texte" : string
 
 numero = parseInt(texte);
 
-document.write('Après la conversion, le typede la variable "numero" est maintenant : ' + typeof numero + '<br>'); // Après la conversion, le type de ma variable "numero" est maintenant : number
+document.write('Après la conversion, le type de la variable "numero" est maintenant : ' + typeof numero + '<br>'); // Après la conversion, le type de ma variable "numero" est maintenant : number
 
 //-----------------------
 

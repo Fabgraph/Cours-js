@@ -127,7 +127,7 @@ do{
     document.write('<p>' + y + '</p>');
     y++;
 }
-while(y < 10); // do while v exécuter au moins une fois le code que la condition soit fausse ou vraie. C'est possible grâce à "do"
+while(y < 10); // do while va exécuter au moins une fois le code que la condition soit fausse ou vraie. C'est possible grâce à "do"
 
 //-------------------------
 

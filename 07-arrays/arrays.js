@@ -61,4 +61,4 @@ monSuperTableau.forEach(function(valeur, indice){
 
 document.write('<hr>' + monSuperTableau.join(' - ') + '<br>');
 
-// join() est une méthode de l'objet Array() retourne une chaine de carctère en concaténant les éléments du tableau. Par défaut, les éléments sont séparés par une virgule lorsqu'on n'utilise
+// join() est une méthode de l'objet Array() retourne une chaine de caractère en concaténant les éléments du tableau. Par défaut, les éléments sont séparés par une virgule lorsqu'on n'utilise
